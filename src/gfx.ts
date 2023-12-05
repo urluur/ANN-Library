@@ -5,7 +5,7 @@ const FRAME_RATE = 5; //ms
 let drawables: Drawable[] = [];
 
 export class Drawable {
-  draw(ctx: CanvasRenderingContext2D, cw: number, ch: number) {}
+  draw(ctx: CanvasRenderingContext2D, cw: number, ch: number) { }
 }
 
 export function setDrawables(dr: Drawable[]): void {
